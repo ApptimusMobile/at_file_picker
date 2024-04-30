@@ -2,11 +2,11 @@ import 'dart:async';
 import 'dart:io';
 import 'dart:typed_data';
 
-import 'package:at_file_picker/src/file_picker_io.dart';
-import 'package:at_file_picker/src/file_picker_macos.dart';
-import 'package:at_file_picker/src/file_picker_result.dart';
-import 'package:at_file_picker/src/linux/file_picker_linux.dart';
-import 'package:at_file_picker/src/windows/stub.dart'
+import 'package:file_picker/src/file_picker_io.dart';
+import 'package:file_picker/src/file_picker_macos.dart';
+import 'package:file_picker/src/file_picker_result.dart';
+import 'package:file_picker/src/linux/file_picker_linux.dart';
+import 'package:file_picker/src/windows/stub.dart'
     if (dart.library.io) 'package:file_picker/src/windows/file_picker_windows.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 

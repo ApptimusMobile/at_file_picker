@@ -13,7 +13,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  at_file_picker:
+  file_picker:
     path: ../
 
 flutter:
